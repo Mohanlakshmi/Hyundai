@@ -118,7 +118,22 @@ namespace Hyundai.Api.DataAccess
                 price = "12.99"
             };
             Products.Add(product);
-            
+            product = new Product()
+            {
+                id = 999,
+                title = "Ashok",
+                description = "Come and join one of the world\'s most beloved artists as he performs live and just for you from MelodyVR’s studio in LA.",
+                artist = "Ramz",
+                isFree = false,
+                image1 = "https://d17jafawxl91z1.cloudfront.net/MVR_RAM_P0295_App_Hero__01-1595262686134.jpg",
+                image2 = "https://d17jafawxl91z1.cloudfront.net/MVR_RAM_P0295_App_Square-1595263538889.jpg",
+                accentColor = "#f52459",
+                backgroundColor = "#0d0a10",
+                textColor = "#ffffff",
+                feature_order = "1",
+                price = "12.99"
+            };
+            Products.Add(product);
 
 
         }
